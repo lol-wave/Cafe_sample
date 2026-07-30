@@ -32,7 +32,8 @@ body {
 }
 
 .navbar {
-  position: absolute;
+  position: fixed;
+  z-index: 998;
   top: 20px;
   left: 50%;
   transform: translateX(-50%);
@@ -152,7 +153,8 @@ body {
   width: 400px;
   height: 100vh;
   transition: left 0.3s ease;
-  background-color: #7c6f5e;
+  background: url('../images/sidenar-background.jpg');
+ 
   overflow:hidden;
   z-index: 999;
 }
@@ -403,4 +405,138 @@ body {
 .special-offer {
     flex: 1;
 }
+
+
+.owner-info{
+  display: flex;
+  gap:30px;
+  align-items: center;
+  min-height: 100vh;
+  background: url("../images/dish-info-backround.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.owner-description{
+  flex: 1;
+}
+
+.owner-image{
+  flex: 1;
+}
+
+.owner-image img{
+  position:absolute;
+  top: 10%;
+  left: 4%;
+  width: 1000px;
+}
+
+.owner-description img{
+  position:absolute;
+  top: 10%;
+  left: 65%;
+  width: 500px;
+  border-radius: 25%;
+}
+
+.owner-description p{
+  font-size:30px;
+  position: absolute;
+  width: 550px;
+  color: #f5e9d9;
+  left:64%;
+  top:57%;
+  text-align: center;
+}
+
+.site-footer{
+  background-color:#bfab91;
+  padding: 40px 20px 20px 20px;
+  
+}
+
+.footer-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-color: #333;
+  
+  
+}
+
+.logo-footer{
+  position: relative;
+
+}
+
+.logo-footer img{
+  width: 500px;
+  height: fit-content;
+}
+
+.about-us{
+  position: relative;
+  text-align: center;
+}
+
+.about-us h3{
+  font-size: 25px;
+}
+
+.about-us p{
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.visit-info{
+  margin-top: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.visit-info h3{
+  font-size: 25px;
+}
+
+.visit-info ul{
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.visit-info ul li a{
+  color:#333;
+  text-decoration: none;
+}
+
+.bottom-footer{
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  border-top-color:#333;
+}
+
+.footer-content{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.footer-content p{
+  position: absolute;
+  left: 1%;
+}
+
+.footer-brand-logos{
+  display: flex;
+  justify-content: center;
+}
+
+.footer-brand-logos a{
+  text-decoration: none;
+  color: #333;
+}
+
 

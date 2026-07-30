@@ -102,28 +102,89 @@
     </section>
     <section class="preview-info">
       <div class="special-offer">
-          <div class="special-offer-image">
-            <img src="{% static 'images/special-offer.jpg' %}" alt="Special Offer" />
-          </div>
-          <div class="special-offer-content">
-            <h2>Special Offer</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              euismod, nunc ut laoreet tincidunt, nunc nisl aliquam nunc, eget
-              aliquam nisl nunc vel nisl.
-            </p>
-          </div>
-        </div>
-      <div class="preview-dish">
-        <div class="dish-img">
+        <div class="special-offer-image">
           <img
-            src="{% static 'images/cafe-dish.jpg' %}"
-            alt="Preview Dish"
+            src="{% static 'images/special-offer.jpg' %}"
+            alt="Special Offer"
           />
         </div>
+        <div class="special-offer-content">
+          <h2>Special Offer</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            euismod, nunc ut laoreet tincidunt, nunc nisl aliquam nunc, eget
+            aliquam nisl nunc vel nisl.
+          </p>
+        </div>
       </div>
-      
+      <div class="preview-dish">
+        <div class="dish-img">
+          <img src="{% static 'images/cafe-dish.jpg' %}" alt="Preview Dish" />
+        </div>
+      </div>
     </section>
+    <section class="owner-info">
+      <div class="owner-image">
+        <img src="{% static 'images\team.jpg' %}" alt="Owner Image" />
+      </div>
+
+      <div class="owner-description">
+        <img
+          src="{% static 'images\shaxruz.png' %}"
+          alt="owner-description-img"
+        />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod,
+          nunc ut laoreet tincidunt, nunc nisl aliquam nunc, eget aliquam nisl
+          nunc vel nisl.
+        </p>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div>
+          <div class="logo-footer">
+            <a href="{% url 'home' %}">
+              <img
+                class="logo-img"
+                src="{% static 'images/logo.png' %}"
+                alt="Logo"
+              />
+            </a>
+          </div>
+          <div class="about-us">
+            <h3>About Us</h3>
+            <p>Exclusive Cafe and top-tier desserts</p>
+          </div>
+          <div class="visit-info">
+            <h3>Visit Us</h3>
+            <ul>
+              <li>Fillette</li>
+              <li>Open everyday, 8:00AM-10:00PM</li>
+              <li><a href="mailto:info@example.com">info@example.com</a></li>
+              <li><a href="tel:+11234567890">+1 (123) 456-7890</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-footer">
+        <div class="footer-content">
+          <p>Copyright&copy; 2026 Fillette. All rights not reserved</p>
+          <div class="footer-brand-logos">
+            <a href="https://t.me/lol_wave"
+              ><i class="fa-brands fa-telegram"></i
+            ></a>
+            <a href="https://www.instagram.com/lol_wav3"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://www.facebook.com/lol_wav3"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script>
       const menuBtn = document.querySelector(".nav-toggle");
