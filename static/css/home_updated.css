@@ -19,7 +19,7 @@ body {
 }
 
 .hero {
-  min-height: 100vh;
+  min-height: 85vh;
   background:
         linear-gradient(
             rgba(0, 0, 0, 0.35),
@@ -39,12 +39,12 @@ body {
   transform: translateX(-50%);
 
   width: 90%;
-  height: 90px;
+  height: 80px;
 
   display: flex;
   align-items: center;
 
-  padding: 0 35px;
+  padding: 0 28px;
 
   background: #bfab91;
   border-radius: 30px;
@@ -55,7 +55,7 @@ body {
 }
 
 .logo-img {
-  height: 90px;
+  height: 80px;
   display: block;
 }
 
@@ -64,7 +64,7 @@ body {
 
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 28px;
 
   margin-left: auto;
 }
@@ -72,7 +72,7 @@ body {
 .nav-links a {
   text-decoration: none;
   color: #333;
-  font-size: 30px;
+  font-size: 22px;
   font-weight: 600;
   transition: 0.25s;
 }
@@ -88,7 +88,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  padding: 12px 28px;
+  padding: 10px 22px;
 
   border: none;
   border-radius: 999px;
@@ -97,7 +97,7 @@ body {
   color: #333;
 
   text-decoration: none;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
 
   cursor: pointer;
@@ -179,7 +179,7 @@ body {
   padding-left: 20px;
   padding-top: 5px;
   text-align: left;
-  font-size: 35px;
+  font-size: 24px;
   -webkit-mask-image:
     linear-gradient(
       to right,
@@ -312,21 +312,21 @@ body {
 
 .hero-content {
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
 
 .hero-content h1 {
-  font-size: 80px;
+  font-size: 42px;
   margin-bottom: 20px;
   color: #f5e9d9;
 }
 
 .hero-content p {
   font-size: 35px;
-  max-width: 600px;
+  max-width: 520px;
   margin: 0 auto;
   color: #f5e9d9;
 }
@@ -351,7 +351,8 @@ body {
 }
 
 .dish-img img{
-  width: 1300px;
+  width: 100%;
+  max-width: 750px;
   height: auto;
 }
 
@@ -360,7 +361,7 @@ body {
   position:absolute;
   left: 15%;
   top: 20%;
-  width: 300px;
+  width: 220px;
   height: auto;
   border-radius: 50%;
 }
@@ -369,17 +370,17 @@ body {
   color:#f5e9d9;
   font-size: 60px;
   position:absolute;
-  left: 14%;
+  left: 13%;
   top: 10%;
 }
 
 .special-offer p{
   color:#f5e9d9;
-  font-size: 40px;
+  font-size: 24px;
   position: absolute;
-  left: 11%;
+  left: 10%;
   top: 60%;
-  width: 550px;
+  width: 420px;
   text-align: center;
 
 
@@ -411,7 +412,7 @@ body {
   display: flex;
   gap:30px;
   align-items: center;
-  min-height: 100vh;
+  min-height: 70vh;
   background: url("../images/dish-info-backround.jpg");
   background-size: cover;
   background-position: center;
@@ -430,30 +431,30 @@ body {
   position:absolute;
   top: 10%;
   left: 4%;
-  width: 1000px;
+  width: 650px;
 }
 
 .owner-description img{
   position:absolute;
   top: 10%;
   left: 65%;
-  width: 500px;
+  width: 360px;
   border-radius: 25%;
 }
 
 .owner-description p{
-  font-size:30px;
+  font-size:22px;
   position: absolute;
   width: 550px;
   color: #f5e9d9;
-  left:64%;
-  top:57%;
+  left:60%;
+  top:70%;
   text-align: center;
 }
 
 .site-footer{
   background-color:#bfab91;
-  padding: 40px 20px 20px 20px;
+  padding: 0px 20px 20px 20px;
   
 }
 
@@ -491,7 +492,7 @@ body {
 }
 
 .visit-info{
-  margin-top: 30px;
+  margin-top: 10px;
   text-align: center;
   text-decoration: none;
 }
