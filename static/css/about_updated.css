@@ -37,6 +37,7 @@ body {
   border-radius: 30px;
 
   overflow: hidden;
+  border: 1px solid #333;
 }
 
 .logo {
@@ -407,59 +408,58 @@ body {
 
 .about-us-main {
   min-height: 55vh;
-  background: linear-gradient(
-            rgba(0, 0, 0, 0.35),
-            rgba(0, 0, 0, 0.35)
-        ),url("../images/about-us.jpg");
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url("../images/about-us.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
 }
 
-.about-us-main h1{
-    color: #f5e9d9;
-    font-size: 72px;
-    position: absolute;
-    top: 50%;
-    left: 44%;
+.about-us-main h1 {
+  color: #f5e9d9;
+  font-size: 72px;
+  position: absolute;
+  top: 50%;
+  left: 44%;
 }
 
-.history-content{
-    display: flex;
-    max-height: 75vh;
-    overflow: hidden;
-    background-color: #333;
+.history-content {
+  display: flex;
+  max-height: 75vh;
+  overflow: hidden;
+  background-color: #333;
 }
 
-.history-image{
-    position: relative;
-    left: 33%;
+.history-image {
+  position: relative;
+  left: 33%;
 }
 
-.history-image img{
-    width: 550px;
+.history-image img {
+  width: 550px;
 }
 
-.history img{
-    width: 260px;
-    border-radius: 50%;
+.history img {
+  width: 260px;
+  border-radius: 50%;
 }
 
-.history{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 15%;
-    width: 500px;
-    justify-content: center;
-    align-items: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+.history {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 15%;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-.history p{
-    color: #f5e9d9;
-    font-size: 28px;
-    text-align: center;
-    margin-top: 35px;
+.history p {
+  color: #f5e9d9;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 35px;
 }
