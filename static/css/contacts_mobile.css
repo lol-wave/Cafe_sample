@@ -1,0 +1,268 @@
+@media (max-width: 1000px) {
+  .navbar {
+    top: 14px;
+    width: calc(100% - 28px);
+    height: 70px;
+    padding: 0 16px;
+    border-radius: 24px;
+  }
+
+  .logo-img {
+    height: 70px;
+    max-width: 170px;
+    object-fit: contain;
+  }
+
+  .nav-links,
+  .navbar > .reserve-btn {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: block;
+    margin-left: auto;
+  }
+
+  .sidebar {
+    width: min(86vw, 380px);
+    left: -100%;
+    height: 100dvh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-bottom: 25px;
+  }
+
+  .sidebar.active {
+    left: 0;
+  }
+
+  .x-icon {
+    margin: 16px;
+  }
+
+  .sidebar-logo {
+    width: min(190px, 62vw);
+    margin: 10px auto 20px;
+  }
+
+  .sidebar-content,
+  .sidebar-contacts {
+    width: auto;
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+
+  .sidebar-content h1 {
+    font-size: 24px;
+  }
+
+  .sidebar-content p {
+    font-size: 16px;
+    line-height: 1.45;
+  }
+
+  .sidebar-links {
+    padding: 10px 18px;
+  }
+
+  .sidebar-links li {
+    display: block;
+    width: 100%;
+    height: 48px;
+    margin: 10px 0;
+    padding: 4px 16px;
+    font-size: 22px;
+  }
+
+  .sidebar-links li a {
+    display: block;
+    line-height: 40px;
+  }
+
+  .sidebar .reserve-btn {
+    display: flex;
+    width: fit-content;
+    margin: 20px auto;
+  }
+
+  .sidebar-contacts {
+    margin-top: 15px;
+  }
+
+  .sidebar-contacts h2 {
+    font-size: 23px;
+  }
+
+  .sidebar-brandname {
+    font-size: 19px;
+  }
+
+  .sidebar-brand-logos a {
+    font-size: 24px;
+  }
+  .logo-footer {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    top: 10px;
+    width: calc(100% - 20px);
+    height: 62px;
+    padding: 0 12px;
+    border-radius: 20px;
+  }
+
+  .logo-img {
+    height: 62px;
+    max-width: 145px;
+  }
+
+  .nav-toggle {
+    padding: 8px;
+  }
+
+  .bar,
+  .bar::before,
+  .bar::after {
+    width: 26px;
+    height: 3px;
+  }
+
+  .bar::before {
+    top: -8px;
+  }
+
+  .bar::after {
+    bottom: -8px;
+  }
+
+  .sidebar {
+    width: 88vw;
+  }
+
+  .sidebar-links li {
+    font-size: 20px;
+  }
+
+  .sidebar-content,
+  .sidebar-contacts {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .sidebar-content h1 {
+    font-size: 21px;
+  }
+
+  .sidebar-content p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .contact-section {
+    height: 65svh;
+    min-height: 500px;
+    padding: 0 6%;
+  }
+
+  .contact-section h1 {
+    font-size: clamp(40px, 8vw, 58px);
+    text-align: center;
+  }
+
+  .contact-form-section {
+    padding: 55px 6%;
+  }
+
+  .contact-form {
+    width: min(100%, 500px);
+    padding: 22px;
+  }
+
+  .contact-form label {
+    font-size: 17px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .site-footer {
+    padding: 30px 6% 12px;
+  }
+
+  .footer-container {
+    text-align: center;
+  }
+
+  .logo-footer img {
+    width: min(80vw, 360px);
+    height: auto;
+  }
+
+  .about-us h3,
+  .visit-info h3 {
+    font-size: 22px;
+  }
+
+  .about-us p,
+  .visit-info ul {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  .bottom-footer {
+    height: auto;
+    min-height: 60px;
+    padding-top: 15px;
+    margin-top: 15px;
+  }
+
+  .footer-content {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .footer-content p {
+    position: static;
+    margin: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-section {
+    height: 58svh;
+    min-height: 430px;
+  }
+
+  .contact-section h1 {
+    font-size: clamp(34px, 11vw, 50px);
+  }
+
+  .contact-form-section {
+    padding: 42px 5%;
+  }
+
+  .contact-form {
+    padding: 18px 16px;
+  }
+
+  .contact-form label {
+    font-size: 16px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 9px;
+  }
+}
